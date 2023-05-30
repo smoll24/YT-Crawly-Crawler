@@ -16,10 +16,10 @@ The resulting words and their frequencies are then graphed using Chart.js to vis
 
 ### Features
 
-* Data Retrieval: The project interacts with the YouTube Data API to fetch the required data, including video titles, descriptions, and comments.
-* Word Extraction: Using NLTK (Natural Language Toolkit), the application applies part-of-speech tagging and filtering techniques to extract relevant words associated with the specified phrase.
-* Frequency Analysis: The extracted words are then analyzed, and their frequencies are calculated using the Counter class from the collections module.
-* Graph Visualization: The most frequent words and their corresponding frequencies are graphically represented using Chart.js, providing a visual representation of the prominence of these words in the analyzed YouTube content.
+* ** Data Retrieval:** The project interacts with the YouTube Data API to fetch the required data, including video titles, descriptions, and comments.
+* ** Word Extraction:** Using NLTK (Natural Language Toolkit), the application applies part-of-speech tagging and filtering techniques to extract relevant words associated with the specified phrase.
+* ** Frequency Analysis:** The extracted words are then analyzed, and their frequencies are calculated using the Counter class from the collections module.
+* **Graph Visualization:** The most frequent words and their corresponding frequencies are graphically represented using Chart.js, providing a visual representation of the prominence of these words in the analyzed YouTube content.
 
 ### How to Run
 To run the project locally, follow these steps:
