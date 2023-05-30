@@ -2,7 +2,7 @@
 
 This project is a web-based application developed to analyze the most common words associated with specific phrases in the titles, descriptions, and comments of YouTube videos.
 
-Link to website: [yt-crawly-crawler.smoll24.repl.co/](yt-crawly-crawler.smoll24.repl.co/)
+[yt-crawly-crawler.smoll24.repl.co/](Link to website)
 
 ### Overview
 YT Crawler aims to find the most common words associated with particular phrases in the titles, descriptions, and comments of Youtube videos.
