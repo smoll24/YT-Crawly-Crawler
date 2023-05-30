@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Youtube Toki Pona Trends</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+ <body style="background-image: linear-gradient(to bottom,#4bc0c0cc, #2596be);">
+  <center> 
+  <div class="table-container">
+  <table border="0" width="50%" bgcolor="white" >
+    <tr>
+      <td>
+        <center>
+        <table border="0" width="90%">
+          <tr>
+            <center>
+            <td>
+              <h2>Youtube Crawler</h2>
+              <p>YT Crawler is a project developed out of boredom, aiming to find the most common words associated with particular phrases in the titles, descriptions, and comments of Youtube videos.</p>
+              
+              <p>As an example, the phrase "toki pona" is used in this project. The YouTube Crawler searches for the top 50 videos containing the word "toki pona" in their titles, descriptions, and comments. It then extracts the most frequent words associated with "toki pona" using NLTK. The resulting words and their frequencies are then graphed using Chart.js to visualize the prominence of these words in the analyzed YouTube content.</p>
+                
+                <!-- Add content and graph visualization here -->
+                <canvas id="chart"></canvas>
+                <!-- Include the Chart.js library -->
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <!-- Include your JavaScript code for generating the graph -->
+                <script src="script.js"></script>
+              
+              <p>The core functionality of the project involves searching for videos on YouTube based on a given phrase and retrieving their titles, descriptions, and comments using the YouTube Data API. Python is used to interact with the API and fetch the required data. </p>
+              
+              <p>Once the video data is obtained, NLTK's part-of-speech tagging and filtering techniques are applied to extract relevant words associated with the specified phrase. The frequencies of these words are then calculated using the Counter class from the collections module.</p>
+              
+              <p>The top words and their corresponding frequencies are fed into Chart.js to generate a graph that showcases the most frequent words associated with the specified phrase.</p>  
+            </td>
+            </center>
+          </tr>
+        </table> 
+        </center>
+      </td>
+    </tr>
+  </table>
+  </div>
+  </center>
+
+  
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
