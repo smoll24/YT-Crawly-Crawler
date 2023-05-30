@@ -12,6 +12,8 @@ The YouTube Crawler searches for the top 50 videos containing the word "toki pon
 It then extracts the most frequent words associated with "toki pona" using NLTK. 
 The resulting words and their frequencies are then graphed using Chart.js to visualize the prominence of these words in the analyzed YouTube content.
 
+![image](https://github.com/smoll24/YT-Crawly-Crawler/assets/115204665/0aea4f05-740a-416d-b635-e31d627217c7)
+
 ### Features
 
 * Data Retrieval: The project interacts with the YouTube Data API to fetch the required data, including video titles, descriptions, and comments.
