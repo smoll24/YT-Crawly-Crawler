@@ -1,27 +1,27 @@
 # Youtube Crawler
 
 This project is a web-based application developed to analyze the most common words associated with specific phrases in the titles, descriptions, and comments of YouTube videos.
+It was mainly created as an experiment to familiarize myself with using Youtube's API, using NTLK, and to practice working in JavaScript.
 
-You can find the website here: https://yt-crawly-crawler.smoll24.repl.co/
-
-### Overview
-YT Crawler aims to find the most common words associated with particular phrases in the titles, descriptions, and comments of Youtube videos.
+### What is this project?
+This project consists of a web crawler that looks for the most common words associated with a specified phrase on YouTube.
 
 As an example, the phrase "toki pona" is used in this project. 
-The YouTube Crawler searches for the top 50 videos containing the word "toki pona" in their titles, descriptions, and comments. 
+The YouTube Crawler searches for the top 50 videos containing the word "toki pona" in their titles, descriptions, or comments. 
 It then extracts the most frequent words associated with "toki pona" using NLTK. 
 The resulting words and their frequencies are then graphed using Chart.js to visualize the prominence of these words in the analyzed YouTube content.
 
 ![image](https://github.com/smoll24/YT-Crawly-Crawler/assets/115204665/0aea4f05-740a-416d-b635-e31d627217c7)
 
-### Features
+### What does this project use?
 
-* **Data Retrieval:** The project interacts with the YouTube Data API to fetch the required data, including video titles, descriptions, and comments.
-* **Word Extraction:** Using NLTK (Natural Language Toolkit), the application applies part-of-speech tagging and filtering techniques to extract relevant words associated with the specified phrase.
-* **Frequency Analysis:** The extracted words are then analyzed, and their frequencies are calculated using the Counter class from the collections module.
-* **Graph Visualization:** The most frequent words and their corresponding frequencies are graphically represented using Chart.js, providing a visual representation of the prominence of these words in the analyzed YouTube content.
+* I used YouTube's Data API to fetch video titles, descriptions, and comments of YouTube videos that included the phrase "toki pona".
+* I used NLTK (Natural Language Toolkit) to tokenize these titles, descriptions, and comments, and filter out any words shorter than 3 characters long.
+* I then graphed the 10 most common words (tokens) that were found using Chart.js.
 
-### How to Run
+### How do I run this project?
+The site is unfortunately not currently hosted anywhere.
+
 To run the project locally, follow these steps:
 * Clone the repository to your local machine.
 * Open the HTML file (index.html) in a web browser.
