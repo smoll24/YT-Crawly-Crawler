@@ -1,6 +1,6 @@
 # Youtube Crawler
 
-This project is a web-based application developed to analyze the most common words associated with specific phrases in the titles, descriptions, and comments of YouTube videos.
+This project is a web application developed to analyze the most common words associated with specific phrases in the titles, descriptions, and comments of YouTube videos.
 It was mainly created as an experiment to familiarize myself with using Youtube's API, using NTLK, and to practice working in JavaScript.
 
 ### What is this project?
