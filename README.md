@@ -19,7 +19,7 @@ It then extracts the most frequent words associated with "toki pona" using NLTK 
 * I then graphed the 10 most common words (tokens) that were found using Chart.js.
 
 ### How do I run this project?
-The site is unfortunately not currently hosted anywhere.
+The site is unfortunately not currently hosted anywhere anymore.
 
 To run the project locally, follow these steps:
 * Clone the repository to your local machine.
